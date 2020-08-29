@@ -1,0 +1,22 @@
+{
+    "name": "vustech/wplogger",
+    "description": "Logger for wordpress by vustech",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "monolog/monolog": "^1.25"
+    },
+    "authors": [
+        {
+            "name": "vustech.com",
+            "email": "lienhe@vustech.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "vustech\\wplogger\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
